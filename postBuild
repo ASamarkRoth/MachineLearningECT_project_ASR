@@ -1,0 +1,8 @@
+#!/bin/bash
+python setup.py build_ext --inplace
+
+jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-matplotlib
+jupyter labextension install jupyter-matplotlib
+jupyter nbextension enable --py widgetsnbextension
+
+nbstripout --install

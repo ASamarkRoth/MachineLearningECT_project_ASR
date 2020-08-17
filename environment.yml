@@ -1,0 +1,29 @@
+name: machine_learning
+channels:
+  - conda-forge
+  - defaults
+  - costrouc
+  - anaconda
+dependencies:
+  - nodejs
+  - python=3.6.5
+  - ipykernel
+  - ipympl
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - cython
+  - numpy
+  - scipy
+  - pandas
+  - openpyxl
+  - xlrd
+  - nbconvert
+  - nbstripout
+  - uncertainties
+  - root
+  - pyne=0.5.11=py36_blas_openblas_0
+  - pip
+  - pip:
+    - pyyaml
+    - pysrim
